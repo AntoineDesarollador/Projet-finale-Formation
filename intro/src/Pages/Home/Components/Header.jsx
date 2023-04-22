@@ -8,9 +8,12 @@ function Header(){
     <frameElement>
 
     <nav>
+
+        <div id='logo-div'>
         <Link to={"/"}>
             <img id='logo' src={logo} alt='logo' />
         </Link>
+        </div>
    
     <div id='nav-items'>
 

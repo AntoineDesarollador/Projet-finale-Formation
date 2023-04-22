@@ -11,7 +11,7 @@ function Profil(){
 
     <section id="Profil">
 
-    <FontAwesomeIcon className="left-icon" id="Icon-Profil" icon={faLessThan} /> <h2>  Qui-suis je ?  <span id="Icon-Profil"> / </span></h2> <FontAwesomeIcon className="right-icon" id="Icon-Profil" icon={faGreaterThan} />
+    <h2> <FontAwesomeIcon className="left-icon Icon-Profil" icon={faLessThan} />   Mon profil  <span id="Span-Profil"> / </span> <FontAwesomeIcon className="right-icon Icon-Profil" icon={faGreaterThan} /></h2>
         <img src={img} alt="photo de profil" />
       
       <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. At dolorum suscipit animi sunt aut pariatur? Distinctio aut neque incidunt nulla quos ex alias, culpa ipsam, debitis iure similique dolore perspiciatis!</p>

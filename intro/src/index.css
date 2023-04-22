@@ -16,44 +16,47 @@ code {
   --primary-color-- : #FFDE59;
   --secondary-color-- : #38B6FF;
   --tertiary-color-- : #FF914D;
+  --font-h1-- : "Open Sans";
+  --font-h2-- : "Segoe UI"
+}
+
+h1{
+  text-align: center;
+  font-weight: bold;
+  margin: 0px;
+  font-family: var(--font-h1--);
+  color: var(--primary-color--);
+  font-size: 35px;
+}
+
+h1 span {
+  color: whitesmoke;
+}
+
+
+
+p {
+  text-align: center;
+}
+
+a{
+  text-decoration: none;
+  list-style: none;
 }
 
 h2{
   color: var(--tertiary-color--);
   text-align: center;
   font-size: 35px;
-}
-
-p {
-  text-align: center;
+  font-family: var(--font-h2--);
 }
 
 
-span {
-
-  position: absolute;
-  left: 62.5%;
-  color: var(--secondary-color--);
-  margin-left: 30px; 
+.Icon-Profil {
+  margin: 0px 7px;
 }
 
-.right-icon {
-position: absolute;
-left: 69.3%;
-top: 51.4%;
-color: var(--secondary-color--);
-}
 
-.left-icon {
-position: absolute;
-right: 67.0%;
-top: 51.4%;
-color: var(--secondary-color--);
-}
-
-.right-icon, .left-icon {
-font-size: 35px;
-}
 
 
 /*! HEADER + NAV*/
@@ -77,11 +80,10 @@ padding: 0px;
 
 }
 
-nav a {
-  text-decoration: none;
-  list-style: none;
+#nav-list a {
+
   margin: 5px 20px;
-  font-style: italic;
+ font-style: italic;
   font-weight: bold;
   color: var(--primary-color--);
 }
@@ -91,8 +93,13 @@ nav a {
   border-bottom: 1px solid var(--tertiary-color--);
 }
 
+#logo-div a{
+  display: flex;
+  align-items: center;
+}
+
 #logo {
-  width: 220px;
+  width: 250px;
   margin: 0px auto;
 }
 
@@ -112,6 +119,22 @@ nav a {
   width: 45%;
   display: block;
   margin: 50px auto;
+}
+
+#Span-Profil { 
+  color: var(--secondary-color--);
+  margin-left: 15px;
+}
+
+.right-icon {
+  position: absolute;
+  top: 53.3%;
+
+  }
+
+.right-icon, .left-icon {
+font-size: 35px;
+color: var(--secondary-color--);
 }
 
 
