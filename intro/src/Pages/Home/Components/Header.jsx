@@ -8,7 +8,7 @@ function Header(){
 
 <h1>Hello</h1>
     <nav>
-        <Link to={"index.jsx"}>home</Link>
+        <Link to={"/"}>home</Link>
         <Link to={"contact"}>contact</Link>
     </nav>
 
