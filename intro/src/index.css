@@ -12,6 +12,10 @@ code {
     monospace;
 }
 
+main {
+  padding: 7px 10px;
+}
+
 :root {
   --primary-color-- : #FFDE59;
   --secondary-color-- : #38B6FF;
@@ -37,6 +41,7 @@ h1 span {
 
 p {
   text-align: center;
+  font-size: 17px;
 }
 
 a{
@@ -47,8 +52,9 @@ a{
 h2{
   color: var(--tertiary-color--);
   text-align: center;
-  font-size: 35px;
+  font-size: 30px;
   font-family: var(--font-h2--);
+  text-transform: uppercase;
 }
 
 
@@ -57,6 +63,15 @@ h2{
 }
 
 
+.right-icon, .left-icon {
+  font-size: 30px;
+  color: var(--secondary-color--);
+  }
+
+  section {
+    border: 3px inset var(--primary-color--);
+   
+  }
 
 
 /*! HEADER + NAV*/
@@ -108,7 +123,7 @@ padding: 0px;
 
 #Profil {
   width: 100%;
-  padding: 30px 0px;
+  padding: 15px 0px;
   margin: 30px 0px;
 }
 
@@ -121,20 +136,41 @@ padding: 0px;
   margin: 50px auto;
 }
 
-#Span-Profil { 
-  color: var(--secondary-color--);
-  margin-left: 15px;
+/*! SECTION FORMATION */
+
+#Formation {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
 }
 
-.right-icon {
-  position: absolute;
-  top: 53.3%;
+.Icon-formation {
+  border: 3px solid var(--primary-color--);
+  padding: 10px;
+  border-radius: 10px;
+  color: black;
+  font-size: 35px;
+}
 
-  }
+article h3 {
+  color: var(--tertiary-color--);
+  font-size: 27px;
+  margin: 15px 0px 10px;
 
-.right-icon, .left-icon {
-font-size: 35px;
-color: var(--secondary-color--);
+}
+
+#Formation article {
+  width: 45%;
+  margin: 30px auto;
+}
+
+.date {
+  color: var(--secondary-color--);
+  font-weight: bold;
+  margin: 0px;
+  font-size: 20px;
 }
 
 
