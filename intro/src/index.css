@@ -18,9 +18,43 @@ code {
   --tertiary-color-- : #FF914D;
 }
 
+h2{
+  color: var(--tertiary-color--);
+  text-align: center;
+  font-size: 35px;
+}
+
 p {
   text-align: center;
 }
+
+
+span {
+
+  position: absolute;
+  left: 62.5%;
+  color: var(--secondary-color--);
+  margin-left: 30px; 
+}
+
+.right-icon {
+position: absolute;
+left: 69.3%;
+top: 51.4%;
+color: var(--secondary-color--);
+}
+
+.left-icon {
+position: absolute;
+right: 67.0%;
+top: 51.4%;
+color: var(--secondary-color--);
+}
+
+.right-icon, .left-icon {
+font-size: 35px;
+}
+
 
 /*! HEADER + NAV*/
 
@@ -68,18 +102,19 @@ nav a {
 #Profil {
   width: 100%;
   padding: 30px 0px;
+  margin: 30px 0px;
 }
 
-#Profil h1 {
-  color: var(--secondary-color--);
-  text-align: center;
-}
 
 #Profil img {
   border-radius: 50%;
-  border: 5px solid var(--primary-color--);
+  border: 6px solid var(--primary-color--);
   width: 45%;
   display: block;
-  margin: 20px auto;
+  margin: 50px auto;
 }
+
+
+
+
 
