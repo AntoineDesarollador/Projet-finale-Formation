@@ -1,4 +1,5 @@
 import { Link } from 'react-router-dom';
+import img from "../../../asset/images/logo.png"
 
 function Header(){
 
@@ -6,10 +7,26 @@ function Header(){
 
     <frameElement>
 
-<h1>Hello</h1>
     <nav>
-        <Link to={"/"}>home</Link>
-        <Link to={"contact"}>contact</Link>
+        <Link to={"/"}>
+            <img id='logo' src={img} alt='logo' />
+        </Link>
+   
+    <div id='nav-items'>
+
+    <ul id='nav-list'>
+    <Link to={"/"}> <li>Home</li></Link>
+    <Link to={"/"}> <li>Profil</li></Link>   
+    <Link to={"/"}> <li>Formation</li></Link> 
+    <Link to={"/"}> <li>Expériences</li></Link> 
+    <Link to={"/"}> <li>Compétences</li></Link> 
+    <Link to={"/"}> <li>Langues</li></Link> 
+    <Link to={"/"}> <li>Services</li></Link> 
+    <Link to={"/"}> <li>Contact</li></Link> 
+    </ul>
+
+    </div>
+
     </nav>
 
 
