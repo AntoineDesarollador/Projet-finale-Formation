@@ -12,6 +12,18 @@ code {
     monospace;
 }
 
+:root {
+  --primary-color-- : #FFDE59;
+  --secondary-color-- : #38B6FF;
+  --tertiary-color-- : #FF914D;
+}
+
+p {
+  text-align: center;
+}
+
+/*! HEADER + NAV*/
+
 nav {
   padding: 20px;
   display: flex;
@@ -34,18 +46,40 @@ padding: 0px;
 nav a {
   text-decoration: none;
   list-style: none;
-  margin: 10px 20px;
+  margin: 5px 20px;
   font-style: italic;
   font-weight: bold;
-  color: azure;
+  color: var(--primary-color--);
 }
 
-nav a:hover {
-  color: rgb(79, 79, 245);
-  border-bottom: 1px solid red;
+#nav-list a:hover {
+  color: whitesmoke;
+  border-bottom: 1px solid var(--tertiary-color--);
 }
 
 #logo {
   width: 220px;
   margin: 0px auto;
 }
+
+
+/*! SECTION PROFIL */
+
+#Profil {
+  width: 100%;
+  padding: 30px 0px;
+}
+
+#Profil h1 {
+  color: var(--secondary-color--);
+  text-align: center;
+}
+
+#Profil img {
+  border-radius: 50%;
+  border: 5px solid var(--primary-color--);
+  width: 45%;
+  display: block;
+  margin: 20px auto;
+}
+

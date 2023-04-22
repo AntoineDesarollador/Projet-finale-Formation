@@ -1,4 +1,5 @@
 import Header from "../Home/Components/Header.jsx"
+import Profil from "../Home/Components/Profil.jsx"
 
 
 function Home(){
@@ -6,6 +7,7 @@ function Home(){
     return(
     <frameElement>
         <Header />
+        <Profil />
     </frameElement>
     )
 }

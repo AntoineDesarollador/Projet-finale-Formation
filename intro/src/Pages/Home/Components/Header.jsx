@@ -1,5 +1,5 @@
 import { Link } from 'react-router-dom';
-import img from "../../../asset/images/logo.png"
+import logo from "../../../asset/images/logo.png"
 
 function Header(){
 
@@ -9,7 +9,7 @@ function Header(){
 
     <nav>
         <Link to={"/"}>
-            <img id='logo' src={img} alt='logo' />
+            <img id='logo' src={logo} alt='logo' />
         </Link>
    
     <div id='nav-items'>
