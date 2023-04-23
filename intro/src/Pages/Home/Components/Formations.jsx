@@ -1,7 +1,6 @@
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faLessThan } from '@fortawesome/free-solid-svg-icons';
 import { faGreaterThan } from "@fortawesome/free-solid-svg-icons";
-import { faSchool} from "@fortawesome/free-solid-svg-icons"
 import {faCode} from "@fortawesome/free-solid-svg-icons";
 
 function Formation(){
@@ -35,7 +34,7 @@ function Formation(){
             <h3>3W Academy</h3>
             <p className='date'>2023</p>
             <p>Bootcamp FullStack Javascript</p>
-            <p className='langage-learning'>HTML, CSS, JavaScript, Node.JS, React, jQuery, Bootstrap, React, React Native, PWA, Git et Express</p>
+            <p className='langage-learning'>HTML, CSS, JavaScript, Node.JS, React, jQuery, Bootstrap, React, React Native, API, Git et Express</p>
             </article>
 
          </div>

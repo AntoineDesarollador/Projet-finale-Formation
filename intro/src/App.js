@@ -8,15 +8,11 @@ import Home from "./Pages/Home/index.jsx"
 
 function App() {
   return (
-
-    
       <>
-    
-          <Home />
-
-        
+          <Home />    
       </>
   );
+
 }
 
 export default App;
