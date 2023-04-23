@@ -4,6 +4,8 @@ import { faGreaterThan } from "@fortawesome/free-solid-svg-icons";
 import Snake from "../../../asset/images/snake.png"
 import PacMan from "../../../asset/images/pacman10-hp.png"
 
+import hideRealisationImg from "../Components/asset-js/realisation.js"
+
 function Experience(){
     return (
         <frameElement>
@@ -22,7 +24,7 @@ function Experience(){
                 <h4> Pac-man  </h4>
                 </div>
                 
-                <div>
+                <div className='img-div'>
                 <img src={PacMan} alt="" srcset="" />
                 </div>
 
@@ -63,7 +65,9 @@ function Experience(){
                 </div>
          </div>
          </section>
-         
+
+        <script src={hideRealisationImg}></script>
+
          </frameElement>
     )
 }
