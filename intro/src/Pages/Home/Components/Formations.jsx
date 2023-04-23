@@ -13,32 +13,29 @@ function Formation(){
 
          <div id='Formation'>
 
+         
             <article>
-            <FontAwesomeIcon className='Icon-formation' icon={faSchool} />
-            <h3>Baccalauréat</h3>
-            <p className='date'>2018</p>
-            <p>Bac scientifique avec spécialité mathématique</p>
-            </article>
-
-                <article>
             <FontAwesomeIcon className='Icon-formation' icon={faCode} />
             <h3>Udémy</h3>
-            <p className='date'>2018</p>
-            <p>Bac scientifique avec spécialité mathématique</p>
+            <p className='date'>2021 - 2022</p>
+            <p>Formation FullStack  de A à Z</p>
+            <p className='langage-learning'>HTML, CSS, Javascript, jQuery, Bootstrap, PHP, MySQL, Wordpress</p>
             </article>
 
             <article>
             <FontAwesomeIcon className='Icon-formation' icon={faCode} />
             <h3>OpenClass Room</h3>
-            <p className='date'>2018</p>
-            <p>Bac scientifique avec spécialité mathématique</p>
+            <p className='date'>2022</p>
+            <p>Formation FullStack - 6 mois</p>
+            <p className='langage-learning'>HTML, CSS, JavaScript, React, Git/GitHub, NodeJS, Express, MongoDB, les API REST</p>
             </article>
 
             <article>
             <FontAwesomeIcon className='Icon-formation' icon={faCode} />
-            <h3>3wa Academy</h3>
-            <p className='date'>2018</p>
-            <p>Bac scientifique avec spécialité mathématique</p>
+            <h3>3W Academy</h3>
+            <p className='date'>2023</p>
+            <p>Bootcamp FullStack Javascript</p>
+            <p className='langage-learning'>HTML, CSS, JavaScript, Node.JS, React, jQuery, Bootstrap, React, React Native, PWA, Git et Express</p>
             </article>
 
          </div>

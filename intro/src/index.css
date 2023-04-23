@@ -154,17 +154,20 @@ padding: 0px;
   font-size: 35px;
 }
 
-article h3 {
-  color: var(--tertiary-color--);
-  font-size: 27px;
-  margin: 15px 0px 10px;
 
-}
 
 #Formation article {
   width: 45%;
   margin: 30px auto;
 }
+
+article h3 {
+  color: var(--tertiary-color--);
+  font-size: 27px;
+  margin: 15px 0px 10px;
+}
+
+
 
 .date {
   color: var(--secondary-color--);
@@ -172,6 +175,13 @@ article h3 {
   margin: 0px;
   font-size: 20px;
 }
+
+.langage-learning {
+  padding: 10px;
+ font-style: italic;
+}
+
+
 
 
 
