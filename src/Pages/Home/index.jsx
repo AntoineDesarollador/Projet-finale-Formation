@@ -7,15 +7,17 @@ import Experience from "../Home/Components/Experiences.jsx"
 function Home(){
 
     return(
-
-        <main>
-    <frameElement>
+        <frameElement>
         <Header />
+        <main>
+   
+       
         <Profil />
         <Formation />
         <Experience />
-    </frameElement>
+  
     </main>
+    </frameElement>
     )
 }
 
